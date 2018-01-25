@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+}
+
+.form-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: flex-end; /*centers items on the cross-axis (y by default)*/
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+#header {
+  margin: 0px 10px 0 10px;
+}
+
+.results-table {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  margin: 0 50px 0 50px;
+  width: 30%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.input-item, .sorted-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

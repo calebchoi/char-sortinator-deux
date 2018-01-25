@@ -14,8 +14,8 @@ $(() => {
         return result.json();
       })
       .then(sorted => {
-        $('#original').append(`<p>${input}</p>`);
-        $('#sorted').append(`<p>${sorted}</p>`);
+        $('#input').append(`<div class="input-item">${input}</div>`);
+        $('#sorted').append(`<div class="sorted-item">${sorted}</div>`);
       });
   })
 });
